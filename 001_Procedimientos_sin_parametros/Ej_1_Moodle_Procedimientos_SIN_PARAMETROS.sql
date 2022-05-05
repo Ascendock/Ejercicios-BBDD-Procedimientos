@@ -13,5 +13,4 @@ BEGIN
         ORDER BY ANIMALES.peso DESC;
 
 END$$
-
 CALL ANIMALES_getListNome;
