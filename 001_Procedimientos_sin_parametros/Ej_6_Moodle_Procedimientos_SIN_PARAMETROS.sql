@@ -8,7 +8,7 @@ CREATE PROCEDURE animales_getListDatos()
 COMMENT "Muestra una columna con los datos y formato nombre - tipo - anhos : peso"
 BEGIN
 
-	SELECT CONCAT(nombre," - ",tipo," - ",anhos," : ",peso) as "Nombre-tipo-edad:peso"
+    SELECT CONCAT(nombre," - ",tipo," - ",anhos," : ",peso) as "Nombre-tipo-edad:peso"
     FROM animales;
 
 END$$
